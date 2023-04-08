@@ -17,7 +17,7 @@ for x in range(int(numberOfCookies)):
     new_inputed=re.sub(":"," ",inputed)
     new_inputed=re.sub(","," ",new_inputed)
     words=new_inputed.split()
-    print(words)
+    # print(words)
     # print(new_inputed, len(words))
     number_of_elements_per_cookie = int((len(words)-4)/2)
     if (words[0]=="define" and words[1]=="suit"):
